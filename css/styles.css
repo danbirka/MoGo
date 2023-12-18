@@ -8,8 +8,20 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-.header {
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
+.header {
+    padding-top: 32px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header__logo {
@@ -18,18 +30,18 @@ body {
     font-weight: 700;
 }
 
-.header__nav {
-
-}
+.header__nav {}
 
 .header__nav__list {
-
+    display: flex;
+    gap: 55px;
 }
 
-.header__nav-item {
+.header__nav-item {}
 
-}
+.header__nav-link {}
 
-.header__nav-link {
-
+.header__nav-link:hover,
+.header__nav-link:focus {
+    color: #F38181;
 }

@@ -10,31 +10,41 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto:ital,wght@0,400;1,300&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 
 <body>
 
     <!-- header -->
     <header class="header">
-        <a class="header__logo" href="./index.html">MoGo</a>
-        <nav class="header__nav">
-            <ul class="header__nav__list">
-                <li class="header__nav-item"><a class="header__nav-link" href="#">ABOUT</a></li>
-                <li class="header__nav-item"><a class="header__nav-link" href="#">SERVICE</a></li>
-                <li class="header__nav-item"><a class="header__nav-link" href="#">WORK</a></li>
-                <li class="header__nav-item"><a class="header__nav-link" href="#">BLOG</a></li>
-                <li class="header__nav-item"><a class="header__nav-link" href="#">CONTACT</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <a class="header__logo" href="./index.html">MoGo</a>
+            <nav class="header__nav">
+                <ul class="header__nav__list">
+                    <li class="header__nav-item"><a class="header__nav-link" href="#">ABOUT</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="#">SERVICE</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="#">WORK</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="#">BLOG</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <!-- main -->
     <main>
         <section class="services">
+            <div class="container">
             <p class="services__text">We work with</p>
             <h2 class="services__title"> Amazing Services</h2>
+        </div>
         </section>
         <section>
+            <div class="container">
             <ul>
                 <li class="class=" works__item>
                     <svg xmlns="http://www.w3.org/2000/svg" width="38" height="37" viewBox="0 0 38 37" fill="none">
@@ -219,8 +229,10 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                 </li>
             </ul>
-        </section class='team'>
-        <section>
+        </div>
+        </section>
+        <section class='team'>
+            <div class="container">
             <p class="team__text">Who we are</p>
             <h2 class="team__title">Meet our team</h2>
             <p class="team__subtext">
@@ -229,8 +241,10 @@
                 magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                 commodo consequat.
             </p>
+        </div>
         </section>
         <section class="team-members">
+            <div class="container">
             <ul class="team-members__list">
                 <li class="team-members__item">
                     <img class="team-members__img" src="./img/first-man-1.jpg" alt="Matthew Dix">
@@ -248,9 +262,11 @@
                     <p class="team-members__position">Developer</p>
                 </li>
             </ul>
-        </section>_
+        </div>
+        </section>
     </main>
     <footer class="footer">
+        <div class="container">
         <p class="footer__text">© 2016 MoGo free PSD template by Laaqiq</p>
         <form class="footer__form">
             <label class="footer__form__label" for="email">
@@ -258,6 +274,7 @@
             </label>
             <button class="footer__form__button" type="submit">subscribe</button>
         </form>
+    </div>
     </footer>
 
 </body>
