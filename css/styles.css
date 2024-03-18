@@ -12,7 +12,7 @@ body {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-   
+
 }
 
 .header {
@@ -89,6 +89,12 @@ body {
 
 .works__item {
     flex-basis: calc((100% - 3 * 60) /3)
+}
+
+.works__icon {
+    width: 37px;
+    height: 37px;
+    fill: #95E1D3;
 }
 
 .works__title {
